@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     
     func isAho() -> Bool {
         // 問題1: 3の倍数かどうか調べる
-        
+        if number % 3 == 0 {
+            return true
+        }
         // 問題2: 1の位が3かどうか調べる
         
         // 問題3: 10の位が3かどうか調べる
